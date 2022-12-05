@@ -1,0 +1,12 @@
+.mainaboutbg {
+	background-image: url(https://dreamlandstorage.blob.core.windows.net/fileupload/assets/aboutbg.jpg);
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+	min-height: 50vh;
+}

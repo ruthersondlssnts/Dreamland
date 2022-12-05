@@ -1,0 +1,48 @@
+.swiper {
+  width: 100%;
+  height: auto;
+  max-height: 80vh;
+}
+
+.swiperslide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiperslide img {
+  display: block;
+  width: 100%;
+}
+
+.watermark {
+  position: absolute;
+  top: 49%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3.2vw;
+  font-weight: 900;
+  color: white;
+  opacity: 0.8;
+  padding: 0px 20px;
+  border-radius: 32px;
+  -webkit-box-shadow: inset 1px 1px 200px 20px #898989;
+  box-shadow: inset 1px 1px 200px 20px #898989;
+  text-shadow: -6px 5px 20px #000000;
+}
+
+.align {
+  list-style-type: none;
+}
+
+.align b {
+  display: inline-block;
+  width: 50%;
+  position: relative;
+  padding-right: 10px; /* Ensures colon does not overlay the text */
+}
+
+.align b::after {
+  content: ":";
+  position: absolute;
+  right: 40px;
+}

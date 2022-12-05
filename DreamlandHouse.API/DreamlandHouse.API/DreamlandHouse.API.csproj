@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationInsightsResourceId>/subscriptions/e96ef2e8-85c6-4cba-b087-7f06b41e4957/resourceGroups/rutherson-dreamland-rg/providers/microsoft.insights/components/dreamlandhouse-api202211202236</ApplicationInsightsResourceId>
+    <UserSecretsId>5af55efb-12ae-4a02-8d05-a314bb06b71b</UserSecretsId>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Azure.Extensions.AspNetCore.Configuration.Secrets" Version="1.2.2" />
+    <PackageReference Include="Azure.Identity" Version="1.8.0" />
+    <PackageReference Include="Azure.Security.KeyVault.Secrets" Version="4.4.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
+    <PackageReference Include="Microsoft.Identity.Web" Version="1.25.8" />
+    <PackageReference Include="Microsoft.Identity.Web.MicrosoftGraph" Version="1.25.8" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.14.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DreamlandHouse.Services\DreamlandHouse.Services.csproj" />
+  </ItemGroup>
+</Project>
